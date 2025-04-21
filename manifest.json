@@ -1,7 +1,7 @@
 {
 	"id": "tasks-cleaner",
 	"name": "Tasks Cleaner",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "1.0.0",
 	"description": "Task Cleaner for completed tasks.",
 	"author": "lowit <ea@lowit.ru>",
