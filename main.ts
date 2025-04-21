@@ -141,8 +141,10 @@ class ConfirmModal extends Modal {
 			});
 		}
 
-		const button = contentEl.createEl("button", { text: "Clear" });
-		button.style.marginTop = "1em";
+		const button = contentEl.createEl("button", {
+			text: "Clear",
+			cls: "tasks-cleaner-button-clear",
+		});
 		button.onclick = () => {
 			this.onConfirm();
 			this.close();
