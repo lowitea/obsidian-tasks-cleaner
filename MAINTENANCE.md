@@ -8,10 +8,6 @@
     # or
     npm version major
     ```
-1. Make a new git tag
-    ```bash
-    git tag -a <NEW_VERSION>
-    ```
 1. Push all to upstream
     ```bash
     git push origin master --follow-tags
