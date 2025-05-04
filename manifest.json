@@ -3,8 +3,8 @@
 	"name": "Tasks Cleaner",
 	"version": "1.0.1",
 	"minAppVersion": "1.0.0",
-	"description": "Task Cleaner for completed tasks.",
-	"author": "lowit <ea@lowit.ru>",
+	"description": "Find and remove outdated tasks.",
+	"author": "lowit",
 	"authorUrl": "https://github.com/lowitea/",
 	"isDesktopOnly": false
 }

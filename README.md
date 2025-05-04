@@ -1,4 +1,4 @@
-# Obsidian Tasks Cleaner Plugin
+# Tasks Cleaner Plugin
 
 🧹 **Tasks Cleaner** is a plugin for [Obsidian](https://obsidian.md) that helps you automatically remove old completed tasks from your Markdown notes. It's perfect for users who track tasks with completion dates and want to keep their notes tidy.
 

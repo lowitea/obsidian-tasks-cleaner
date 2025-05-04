@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-tasks-cleaner-plugin",
+	"name": "tasks-cleaner-plugin",
 	"version": "1.0.1",
-	"description": "Task Cleaner plugin for Obsidian (https://obsidian.md)",
+	"description": "Find and remove outdated tasks.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
