@@ -26,8 +26,16 @@ export default class TasksCleanerPlugin extends Plugin {
 	async onload() {
 		await this.loadSettings();
 
-		this.addRibbonIcon("trash", "Clean old tasks", async () => {
+		this.addRibbonIcon("trash", "Remove old tasks", async () => {
 			await this.cleanOldTasks();
+		});
+
+		this.addCommand({
+			id: "tasks-cleaner-remove-old-tasks",
+			name: "Remove old tasks",
+			callback: async () => {
+				await this.cleanOldTasks();
+			},
 		});
 
 		this.addSettingTab(new TasksCleanerSettingTab(this.app, this));
