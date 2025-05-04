@@ -175,9 +175,6 @@ class TasksCleanerSettingTab extends PluginSettingTab {
 	display(): void {
 		const { containerEl } = this;
 
-		containerEl.empty();
-		containerEl.createEl("h2", { text: "Tasks Cleaner Cleaner" });
-
 		new Setting(containerEl)
 			.setName("Delete issues older than (days)")
 			.setDesc(
